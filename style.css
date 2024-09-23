@@ -108,7 +108,7 @@ a{
 .list-items{
     height: 220vh;
     width: 90vw;
-   margin-left: 50px;
+    margin-left: 45px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -403,8 +403,8 @@ a{
 }
 .navbar{
     flex-direction:column;
-    width: 80%;
-    padding-left: 40%;
+    width: 85%;
+    padding-left: 35%;
 }
 .hero{
     width: 80%;
@@ -422,8 +422,8 @@ a{
     font-size: 3rem;
 }
 .new-Arrival{
-  margin-bottom: 50px;
-  text-align: center;
+  margin-bottom: 70px;
+ 
   
 }
 .list-items{
@@ -460,6 +460,11 @@ a{
     margin-bottom: 10%;
 }
 .slides1 h1{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+.slides2 h1{
     font-size: 2rem;
     margin-top: 20px;
     margin-bottom:20px;
