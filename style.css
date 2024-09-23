@@ -23,7 +23,7 @@
     margin-right: 50px;
 }
 a{
-    padding-right: 30px;
+    padding-right: 20px;
     text-decoration: none;
     color: black;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -43,14 +43,16 @@ a{
     justify-content: space-between;
 }
 .hero img{
-    margin-right: 50px;
+    margin-right: 150px;
+
 }
 
 .hero-title{
     display: flex;
     flex-direction: column;
+    width: 600px;
     justify-content: center;
-    margin-left: 150px;
+    margin-left: 50px;
 }
 .hero-title h1{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -104,9 +106,9 @@ a{
     margin-bottom: 50px;
 }
 .list-items{
-    height: 200vh;
+    height: 220vh;
     width: 90vw;
-    margin-left: 50px;
+   margin-left: 50px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -130,24 +132,24 @@ a{
     cursor: pointer;
 }
 .list-items img{
-    height: 450px;
-    width: 350px;
+    height: 340px;
+    width: 320px;
 }
 .list-items img:hover{
     transform: scale(0.97);
     transition: 1s;
     cursor: pointer;
 }
-#space-div2{
-  height: 140px;
+.space-div2{
+  height: 200px;
   justify-content: center;
   text-align: center;
 }
-#space-div2 h1{
+.space-div2 h1{
     font-size: 3rem;
     font-family: sans-serif;
 }
-#space-div2 p{
+.space-div2 p{
     color: rgb(161, 159, 159);
     font-size: 1rem;
 }
@@ -387,3 +389,115 @@ font-size: 30px;
     text-align: center;
     color: rgb(150, 149, 149);
 }
+
+@media (min-width:300px) and (max-width: 768px) {
+
+*{
+        width: 90%;
+}
+a{
+    padding-right: 5px;
+}
+.title{
+    margin-left: 0px;
+}
+.navbar{
+    flex-direction:column;
+    width: 80%;
+    padding-left: 40%;
+}
+.hero{
+    width: 80%;
+    height: 700px;
+    background-color: rgb(240, 232, 232);
+    justify-content: space-evenly;
+}
+.hero-title{
+    margin-left: 5px;
+}
+.hero img{
+    background-color: rgb(240, 232, 232);
+}
+.hero-title h1{
+    font-size: 3rem;
+}
+.new-Arrival{
+  margin-bottom: 50px;
+  text-align: center;
+  
+}
+.list-items{
+    height: 100%;
+    
+}
+.space-div2{
+   margin-left: 25%;
+   padding-bottom: 10px;
+}
+
+.slides-1{
+    flex-direction: column-reverse;
+    width:auto;
+    height: 100%;
+}
+.slides-2{
+    width: auto;
+    flex-direction: column-reverse;
+    height: 100%;
+}
+.slides-1 img{
+    margin-left: 20%;
+}
+.slides-2 img{
+    margin-left: 20%;
+}
+.slides1 {
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+.slides2{
+    margin-left: 20%;
+    margin-bottom: 10%;
+}
+.slides1 h1{
+    font-size: 2rem;
+    margin-top: 20px;
+    margin-bottom:20px;
+}
+
+.second-list-item{
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    margin-left: 25%;
+}
+.subfooter{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin:15%;
+}
+
+.slides1 img{
+justify-content: center;
+height: 100%;
+}
+.slides2 img{
+    height: 100%;
+    margin-bottom: 50%;
+}
+.footer{
+    flex-direction: column;
+    height: 100%;
+    margin-left: 10px;
+}
+.copyright{
+    margin: 20px 0px 10px 50px;
+    
+}
+}
+
+
+
+
+
